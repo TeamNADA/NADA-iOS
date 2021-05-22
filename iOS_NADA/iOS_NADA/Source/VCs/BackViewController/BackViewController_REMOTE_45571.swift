@@ -42,11 +42,7 @@ class BackViewController: UIViewController {
     }
 
     @IBAction func backToFront(_ sender: Any) {
-<<<<<<< HEAD
-        
-=======
         self.navigationController?.popViewController(animated: true)
->>>>>>> 8c52778ced2bd8d4359ccf40b0f7cade8edc3baf
     }
     
 
