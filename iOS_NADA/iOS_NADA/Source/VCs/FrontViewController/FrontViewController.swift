@@ -25,16 +25,17 @@ class FrontViewController: UIViewController {
     //MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.navigationBar.isHidden = true
         setUI()
     }
 
     
     @IBAction func goToBack(_ sender: Any) {
-        let nextVC = BackViewController()
-        
-        self.present(nextVC, animated: true, completion: nil)
-//        self.navigationController?.pushViewController(nextVC, animated: true)
+        print("hi")
+//        let nextVC = BackViewController()
+//        nextVC.modalPresentationStyle = .overFullScreen
+//        self.present(nextVC, animated: true, completion: nil)
+        self.navigationController?.pushViewController(BackViewController(), animated: true)
     }
     
 

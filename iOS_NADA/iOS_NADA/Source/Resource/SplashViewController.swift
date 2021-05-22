@@ -1,25 +1,22 @@
 //
-//  BackViewController.swift
+//  SpalshViewController.swift
 //  iOS_NADA
 //
-//  Created by kimhyungyu on 2021/05/23.
+//  Created by Yi Joon Choi on 2021/05/23.
 //
 
 import UIKit
 
-class BackViewController: UIViewController {
+class SplashViewController: UIViewController {
 
-    @IBOutlet weak var touchBackBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.isHidden = true
+
+        self.view.backgroundColor = .nadaBrandcolor
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func backToFront(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
-    }
-    
+
     /*
     // MARK: - Navigation
 
