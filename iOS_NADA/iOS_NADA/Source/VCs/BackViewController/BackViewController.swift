@@ -45,7 +45,12 @@ class BackViewController: UIViewController {
         self.navigationController?.popViewController(animated: true)
     }
     
-
+    @IBAction func touchAlertBtn(_ sender: Any) {
+        let nextVC = AlertViewController()
+        nextVC.modalPresentationStyle = .overCurrentContext
+        present(nextVC, animated: true, completion: nil)
+    }
+    
 
 }
 extension BackViewController {

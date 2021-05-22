@@ -8,7 +8,8 @@
 import UIKit
 
 class EnrollViewController: UIViewController {
-
+    
+    
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var idTextField: UITextField!
     @IBOutlet weak var keywordTextField: UITextField!
@@ -32,10 +33,11 @@ class EnrollViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true
 
-        // Do any additional setup after loading the view.
     }
-    
+
+
     @IBAction func completeButton(_ sender: Any) {
         let nextVC = FrontViewController(nibName: "FrontViewController", bundle: nil)
         self.navigationController?.pushViewController(nextVC, animated: true)
