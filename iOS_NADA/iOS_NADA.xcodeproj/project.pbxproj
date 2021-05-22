@@ -12,13 +12,13 @@
 		77BB54B326594152005F0EA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54B226594152005F0EA6 /* SceneDelegate.swift */; };
 		77BB54BA26594156005F0EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BB54B926594156005F0EA6 /* Assets.xcassets */; };
 		77BB54BD26594156005F0EA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BB54BB26594156005F0EA6 /* LaunchScreen.storyboard */; };
-		77BB54CF2659424F005F0EA6 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54CD2659424F005F0EA6 /* TestViewController.swift */; };
-		77BB54D02659424F005F0EA6 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BB54CE2659424F005F0EA6 /* TestViewController.xib */; };
 		77BB54DE2659479B005F0EA6 /* temp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54DD2659479B005F0EA6 /* temp1.swift */; };
 		77BB54E1265947A2005F0EA6 /* temp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54E0265947A2005F0EA6 /* temp2.swift */; };
 		77BB54E4265947AD005F0EA6 /* temp3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54E3265947AD005F0EA6 /* temp3.swift */; };
 		77BB54E7265947B4005F0EA6 /* temp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54E6265947B4005F0EA6 /* temp4.swift */; };
 		77BB54EA265947C1005F0EA6 /* temp5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54E9265947C1005F0EA6 /* temp5.swift */; };
+		77BB550026595DEE005F0EA6 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54FE26595DEE005F0EA6 /* AlertViewController.swift */; };
+		77BB550126595DEE005F0EA6 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BB54FF26595DEE005F0EA6 /* AlertViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,13 +30,13 @@
 		77BB54B926594156005F0EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77BB54BC26594156005F0EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77BB54BE26594156005F0EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77BB54CD2659424F005F0EA6 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		77BB54CE2659424F005F0EA6 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		77BB54DD2659479B005F0EA6 /* temp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp1.swift; sourceTree = "<group>"; };
 		77BB54E0265947A2005F0EA6 /* temp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp2.swift; sourceTree = "<group>"; };
 		77BB54E3265947AD005F0EA6 /* temp3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp3.swift; sourceTree = "<group>"; };
 		77BB54E6265947B4005F0EA6 /* temp4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp4.swift; sourceTree = "<group>"; };
 		77BB54E9265947C1005F0EA6 /* temp5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp5.swift; sourceTree = "<group>"; };
+		77BB54FE26595DEE005F0EA6 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlertViewController.swift; path = ../../../../../../Documents/AlertViewController.swift; sourceTree = "<group>"; };
+		77BB54FF26595DEE005F0EA6 /* AlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AlertViewController.xib; path = ../../../../../../Documents/AlertViewController.xib; sourceTree = "<group>"; };
 		EF4C154AD4982D85C6EB4720 /* Pods_iOS_NADA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_NADA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,8 +107,7 @@
 		77BB54CC2659421C005F0EA6 /* VCs */ = {
 			isa = PBXGroup;
 			children = (
-				77BB54CD2659424F005F0EA6 /* TestViewController.swift */,
-				77BB54CE2659424F005F0EA6 /* TestViewController.xib */,
+				77BB54FD26595DDC005F0EA6 /* AlertViewController */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -151,6 +150,15 @@
 				77BB54DD2659479B005F0EA6 /* temp1.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		77BB54FD26595DDC005F0EA6 /* AlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				77BB54FE26595DEE005F0EA6 /* AlertViewController.swift */,
+				77BB54FF26595DEE005F0EA6 /* AlertViewController.xib */,
+			);
+			path = AlertViewController;
 			sourceTree = "<group>";
 		};
 		8BF758FFB7970708CB5ECC41 /* Pods */ = {
@@ -230,8 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77BB54BD26594156005F0EA6 /* LaunchScreen.storyboard in Resources */,
-				77BB54D02659424F005F0EA6 /* TestViewController.xib in Resources */,
 				77BB54BA26594156005F0EA6 /* Assets.xcassets in Resources */,
+				77BB550126595DEE005F0EA6 /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +295,10 @@
 				77BB54E7265947B4005F0EA6 /* temp4.swift in Sources */,
 				77BB54EA265947C1005F0EA6 /* temp5.swift in Sources */,
 				77BB54E1265947A2005F0EA6 /* temp2.swift in Sources */,
+				77BB550026595DEE005F0EA6 /* AlertViewController.swift in Sources */,
 				77BB54B126594152005F0EA6 /* AppDelegate.swift in Sources */,
 				77BB54DE2659479B005F0EA6 /* temp1.swift in Sources */,
 				77BB54E4265947AD005F0EA6 /* temp3.swift in Sources */,
-				77BB54CF2659424F005F0EA6 /* TestViewController.swift in Sources */,
 				77BB54B326594152005F0EA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
