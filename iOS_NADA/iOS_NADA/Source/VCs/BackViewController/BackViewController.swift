@@ -1,21 +1,25 @@
 //
-//  TestViewController.swift
+//  BackViewController.swift
 //  iOS_NADA
 //
-//  Created by Yi Joon Choi on 2021/05/22.
+//  Created by kimhyungyu on 2021/05/23.
 //
 
 import UIKit
 
-class TestViewController: UIViewController {
+class BackViewController: UIViewController {
 
+    @IBOutlet weak var touchBackBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func backToFront(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
