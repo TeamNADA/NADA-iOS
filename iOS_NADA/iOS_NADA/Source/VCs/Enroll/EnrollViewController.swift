@@ -1,13 +1,13 @@
 //
-//  TestViewController.swift
+//  EnrollViewController.swift
 //  iOS_NADA
 //
-//  Created by Yi Joon Choi on 2021/05/22.
+//  Created by 민 on 2021/05/23.
 //
 
 import UIKit
 
-class TestViewController: UIViewController {
+class EnrollViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
