@@ -10,7 +10,7 @@ import UIKit
 class FrontViewController: UIViewController {
 
     //MARK: - Properties
-    private var enrollList = EnrollReqest(id: "1", email: "1234@email", isOB: true, part: "28기 YB iOS", age: "25", insta: "@insta_1", school: "seouluniversity", name: "hyungyu", station: "공릉역", keyword: "#안녕하세요", detail: Detail(favBaskin: "민초", favFood: "피자", nickname: "철수", msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."), essential: Essential(mbti: "esfj", isMincho: true, isBumuk: false, isSoju: false))
+    private var enrollList = EnrollReqest(id: "1", email: "1234@email", isOB: true, part: "28기 YB iOS", age: "25", insta: "@insta_1", school: "seouluniversity", name: "hyungyu", station: "공릉역", keyword: "#안녕하세요", detail: Detail(favBaskin: "민초", favFood: "피자", nickname: "철수", msg: "Lorem"), essential: Essential(mbti: "aaaa", isMincho: true, isBumuk: false, isSoju: false))
     
     //MARK: - @IBOutlet Properties
     @IBOutlet weak var nameLabel: UILabel!

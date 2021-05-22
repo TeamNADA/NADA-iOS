@@ -134,8 +134,8 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mco-GH-zrc">
-                    <rect key="frame" x="72" y="734" width="42" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mco-GH-zrc">
+                    <rect key="frame" x="72" y="734" width="41.5" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -165,6 +165,7 @@
                 <constraint firstItem="dZa-2N-LYN" firstAttribute="top" secondItem="cLG-zf-eH7" secondAttribute="bottom" constant="48" id="2lZ-1A-DLP"/>
                 <constraint firstItem="scd-Oc-IXt" firstAttribute="top" secondItem="LeB-cY-ij5" secondAttribute="bottom" constant="48" id="3dp-rR-4ch"/>
                 <constraint firstItem="GCJ-qN-XC0" firstAttribute="leading" secondItem="dZa-2N-LYN" secondAttribute="leading" id="41H-z1-1ad"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Mco-GH-zrc" secondAttribute="trailing" constant="16" id="4wa-Tf-Cli"/>
                 <constraint firstItem="oHo-5Q-6i8" firstAttribute="leading" secondItem="h6T-Yt-wLr" secondAttribute="trailing" constant="117" id="5xt-dd-9iX"/>
                 <constraint firstItem="T2R-wD-nFc" firstAttribute="top" secondItem="65a-VD-0nS" secondAttribute="top" id="7vn-jN-sbG"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FCV-Iv-4je" secondAttribute="trailing" constant="23" id="Aar-IO-04o"/>

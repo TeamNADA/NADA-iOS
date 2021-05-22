@@ -9,21 +9,36 @@ import UIKit
 
 class EnrollViewController: UIViewController {
 
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var idTextField: UITextField!
+    @IBOutlet weak var keywordTextField: UITextField!
+    @IBOutlet weak var obybSegmentedControl: UISegmentedControl!
+    @IBOutlet weak var patrTextField: UITextField!
+    @IBOutlet weak var ageTextField: UITextField!
+    @IBOutlet weak var instagramTextField: UITextField!
+    @IBOutlet weak var schoolTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var subwayTextField: UITextField!
+    @IBOutlet weak var mbtiTextField: UITextField!
+    @IBOutlet weak var minchoSegmentedControl: UISegmentedControl!
+    @IBOutlet weak var tangsuyukSegmentedControl: UISegmentedControl!
+    @IBOutlet weak var drinkSegmentedControl: UISegmentedControl!
+    @IBOutlet weak var beraTextField: UITextField!
+    @IBOutlet weak var likefoodTextField: UITextField!
+    @IBOutlet weak var nicknameTextField: UITextField!
+    @IBOutlet weak var messageTextField: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func completeButton(_ sender: Any) {
+        let nextVC = FrontViewController(nibName: "FrontViewController", bundle: nil)
+        self.navigationController?.pushViewController(nextVC, animated: true)
     }
-    */
-
+    
 }

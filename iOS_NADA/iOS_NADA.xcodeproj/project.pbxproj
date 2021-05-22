@@ -16,7 +16,6 @@
 		77BB54BD26594156005F0EA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BB54BB26594156005F0EA6 /* LaunchScreen.storyboard */; };
 		77BB54DE2659479B005F0EA6 /* temp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54DD2659479B005F0EA6 /* temp1.swift */; };
 		77BB54E1265947A2005F0EA6 /* temp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54E0265947A2005F0EA6 /* temp2.swift */; };
-		77BB54E4265947AD005F0EA6 /* temp3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54E3265947AD005F0EA6 /* temp3.swift */; };
 		77BB54E7265947B4005F0EA6 /* temp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54E6265947B4005F0EA6 /* temp4.swift */; };
 		77BB54EA265947C1005F0EA6 /* temp5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54E9265947C1005F0EA6 /* temp5.swift */; };
 		F850897C265962C50053EBA4 /* BackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F850897A265962C50053EBA4 /* BackViewController.swift */; };
@@ -42,7 +41,6 @@
 		77BB54BE26594156005F0EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77BB54DD2659479B005F0EA6 /* temp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp1.swift; sourceTree = "<group>"; };
 		77BB54E0265947A2005F0EA6 /* temp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp2.swift; sourceTree = "<group>"; };
-		77BB54E3265947AD005F0EA6 /* temp3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp3.swift; sourceTree = "<group>"; };
 		77BB54E6265947B4005F0EA6 /* temp4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp4.swift; sourceTree = "<group>"; };
 		77BB54E9265947C1005F0EA6 /* temp5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp5.swift; sourceTree = "<group>"; };
 		EF4C154AD4982D85C6EB4720 /* Pods_iOS_NADA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_NADA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,7 +158,6 @@
 		77BB54D526594303005F0EA6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				77BB54E3265947AD005F0EA6 /* temp3.swift */,
 				F850897E265996570053EBA4 /* UIColor.swift */,
 			);
 			path = Extension;
@@ -363,7 +360,6 @@
 				77BB54E1265947A2005F0EA6 /* temp2.swift in Sources */,
 				77BB54B126594152005F0EA6 /* AppDelegate.swift in Sources */,
 				77BB54DE2659479B005F0EA6 /* temp1.swift in Sources */,
-				77BB54E4265947AD005F0EA6 /* temp3.swift in Sources */,
 				F88F48B0265958AD007C423A /* EnrollRequest.swift in Sources */,
 				77BB54B326594152005F0EA6 /* SceneDelegate.swift in Sources */,
 			);

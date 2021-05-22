@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-            let frontNavigationController = UINavigationController(rootViewController: FrontViewController())
+            let frontNavigationController = UINavigationController(rootViewController: EnrollViewController())
             self.window?.rootViewController = frontNavigationController
             self.window?.makeKeyAndVisible()
         }
