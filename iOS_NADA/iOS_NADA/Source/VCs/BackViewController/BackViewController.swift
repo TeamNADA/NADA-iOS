@@ -37,11 +37,12 @@ class BackViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
+        self.navigationController?.navigationBar.isHidden = true
         // Do any additional setup after loading the view.
     }
 
     @IBAction func backToFront(_ sender: Any) {
-        
+        self.navigationController?.popViewController(animated: true)
     }
     
 
