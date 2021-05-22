@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "scale" : "1x",
+      "idiom" : "universal",
+      "filename" : "nada1.png"
+    },
+    {
+      "scale" : "2x",
+      "filename" : "nada1@2x.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "nada1@3x.png",
+      "scale" : "3x",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

@@ -19,9 +19,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         self.window = UIWindow(windowScene: scene as! UIWindowScene)
 
-        window?.rootViewController = FrontViewController()
-
-        window?.makeKeyAndVisible()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            let frontNavigationController = UINavigationController(rootViewController: FrontViewController())
+            self.window?.rootViewController = frontNavigationController
+            self.window?.makeKeyAndVisible()
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
