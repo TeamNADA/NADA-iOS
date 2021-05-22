@@ -37,11 +37,15 @@ class FrontViewController: UIViewController {
 
     
     @IBAction func goToBack(_ sender: Any) {
+<<<<<<< HEAD
         print("hi")
 //        let nextVC = BackViewController()
 //        nextVC.modalPresentationStyle = .overFullScreen
 //        self.present(nextVC, animated: true, completion: nil)
         self.navigationController?.pushViewController(BackViewController(), animated: true)
+=======
+ 
+>>>>>>> cc5c567f8cf0991bea7e99a88db9f7bb0b80738b
     }
     
 
