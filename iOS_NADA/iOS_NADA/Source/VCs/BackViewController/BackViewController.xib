@@ -45,98 +45,92 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9no-vx-RS4">
-                    <rect key="frame" x="58" y="124" width="41.5" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="58" y="114" width="59" height="28"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFEB" family="NanumSquareOTF" pointSize="24"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05c-aJ-JWO">
-                    <rect key="frame" x="58" y="150" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="58" y="147" width="39.5" height="19"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="16"/>
                     <color key="textColor" red="0.1764705882352941" green="0.34901960784313724" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65a-VD-0nS">
-                    <rect key="frame" x="48" y="212" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65a-VD-0nS">
+                    <rect key="frame" x="48" y="207" width="39.5" height="19"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="16"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6T-Yt-wLr">
-                    <rect key="frame" x="72" y="239" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="72" y="232" width="49" height="23.5"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWG-5V-FVV">
-                    <rect key="frame" x="48" y="308" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                    <rect key="frame" x="48" y="303.5" width="39.5" height="19"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="16"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLG-zf-eH7">
-                    <rect key="frame" x="72" y="335" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="72" y="328.5" width="49" height="23.5"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZa-2N-LYN">
-                    <rect key="frame" x="48" y="404" width="42" height="21"/>
+                    <rect key="frame" x="48" y="400" width="42" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtZ-7U-mhu">
-                    <rect key="frame" x="72" y="431" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="72" y="427" width="49" height="23.5"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndq-Ql-b7q">
-                    <rect key="frame" x="48" y="596" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                    <rect key="frame" x="48" y="595" width="39.5" height="19"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="16"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeB-cY-ij5">
-                    <rect key="frame" x="72" y="623" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="72" y="620" width="49" height="23.5"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaW-NR-VWT">
-                    <rect key="frame" x="207" y="308" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEj-l4-mgn">
-                    <rect key="frame" x="231" y="335" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="208.5" y="303.5" width="39.5" height="19"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="16"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCJ-qN-XC0">
-                    <rect key="frame" x="48" y="500" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                    <rect key="frame" x="48" y="498.5" width="39.5" height="19"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="16"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsw-Cp-EsL">
-                    <rect key="frame" x="72" y="527" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="72" y="523.5" width="49" height="23.5"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scd-Oc-IXt">
-                    <rect key="frame" x="48" y="692" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                    <rect key="frame" x="48" y="691.5" width="39.5" height="19"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="16"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mco-GH-zrc">
-                    <rect key="frame" x="72" y="719" width="41.5" height="20.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="72" y="716.5" width="49" height="23.5"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -148,14 +142,20 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T2R-wD-nFc">
-                    <rect key="frame" x="207" y="212" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="208.5" y="207" width="39.5" height="19"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="16"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHo-5Q-6i8">
-                    <rect key="frame" x="231" y="239" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="251" y="232" width="49" height="23.5"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEj-l4-mgn">
+                    <rect key="frame" x="251" y="328.5" width="49" height="23.5"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFB" family="NanumSquareOTF" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -169,15 +169,12 @@
                 <constraint firstItem="scd-Oc-IXt" firstAttribute="top" secondItem="LeB-cY-ij5" secondAttribute="bottom" constant="48" id="3dp-rR-4ch"/>
                 <constraint firstItem="GCJ-qN-XC0" firstAttribute="leading" secondItem="dZa-2N-LYN" secondAttribute="leading" id="41H-z1-1ad"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Mco-GH-zrc" secondAttribute="trailing" constant="16" id="4wa-Tf-Cli"/>
-                <constraint firstItem="oHo-5Q-6i8" firstAttribute="leading" secondItem="h6T-Yt-wLr" secondAttribute="trailing" constant="117" id="5xt-dd-9iX"/>
-                <constraint firstItem="T2R-wD-nFc" firstAttribute="top" secondItem="65a-VD-0nS" secondAttribute="top" id="7vn-jN-sbG"/>
+                <constraint firstItem="NEj-l4-mgn" firstAttribute="leading" secondItem="oHo-5Q-6i8" secondAttribute="leading" id="5iR-dw-vsb"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FCV-Iv-4je" secondAttribute="trailing" constant="23" id="Aar-IO-04o"/>
+                <constraint firstItem="oHo-5Q-6i8" firstAttribute="leading" secondItem="h6T-Yt-wLr" secondAttribute="trailing" constant="130" id="AhW-hq-cD2"/>
                 <constraint firstItem="ndq-Ql-b7q" firstAttribute="top" secondItem="dsw-Cp-EsL" secondAttribute="bottom" constant="48" id="Bva-5Y-ZhE"/>
                 <constraint firstItem="LeB-cY-ij5" firstAttribute="leading" secondItem="dsw-Cp-EsL" secondAttribute="leading" id="CpI-16-Pzi"/>
-                <constraint firstItem="T2R-wD-nFc" firstAttribute="leading" secondItem="65a-VD-0nS" secondAttribute="trailing" constant="117" id="ELl-fk-hQl"/>
-                <constraint firstItem="YaW-NR-VWT" firstAttribute="top" secondItem="TWG-5V-FVV" secondAttribute="top" id="FPQ-3w-Oqg"/>
-                <constraint firstItem="NEj-l4-mgn" firstAttribute="leading" secondItem="oHo-5Q-6i8" secondAttribute="leading" id="H5n-Z7-ZGJ"/>
-                <constraint firstItem="NEj-l4-mgn" firstAttribute="top" secondItem="YaW-NR-VWT" secondAttribute="bottom" constant="6" id="HXl-k1-7q8"/>
+                <constraint firstItem="YaW-NR-VWT" firstAttribute="centerY" secondItem="TWG-5V-FVV" secondAttribute="centerY" id="Jq4-U4-AYI"/>
                 <constraint firstItem="mtZ-7U-mhu" firstAttribute="leading" secondItem="cLG-zf-eH7" secondAttribute="leading" id="K32-sB-JWF"/>
                 <constraint firstItem="05c-aJ-JWO" firstAttribute="top" secondItem="9no-vx-RS4" secondAttribute="bottom" constant="5" id="KIe-K7-kLG"/>
                 <constraint firstItem="TWG-5V-FVV" firstAttribute="top" secondItem="h6T-Yt-wLr" secondAttribute="bottom" constant="48" id="MRG-O8-hrR"/>
@@ -190,22 +187,25 @@
                 <constraint firstItem="TWG-5V-FVV" firstAttribute="leading" secondItem="65a-VD-0nS" secondAttribute="leading" id="daa-bA-zCQ"/>
                 <constraint firstItem="dZa-2N-LYN" firstAttribute="leading" secondItem="TWG-5V-FVV" secondAttribute="leading" id="dpD-i0-stK"/>
                 <constraint firstItem="E9U-eZ-GGo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="25" id="dph-V5-4wQ"/>
-                <constraint firstItem="YaW-NR-VWT" firstAttribute="leading" secondItem="T2R-wD-nFc" secondAttribute="leading" id="ffA-aZ-lhS"/>
+                <constraint firstItem="T2R-wD-nFc" firstAttribute="centerY" secondItem="65a-VD-0nS" secondAttribute="centerY" id="ew6-Dl-5ly"/>
+                <constraint firstItem="NEj-l4-mgn" firstAttribute="centerY" secondItem="cLG-zf-eH7" secondAttribute="centerY" id="ihW-Ee-y4Q"/>
+                <constraint firstItem="oHo-5Q-6i8" firstAttribute="top" secondItem="T2R-wD-nFc" secondAttribute="bottom" constant="6" id="jEe-pz-7DD"/>
                 <constraint firstItem="h6T-Yt-wLr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="72" id="jl3-F4-2C5"/>
+                <constraint firstItem="T2R-wD-nFc" firstAttribute="leading" secondItem="65a-VD-0nS" secondAttribute="trailing" constant="121" id="oPZ-xP-eYp"/>
                 <constraint firstItem="65a-VD-0nS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="48" id="oT0-3U-Y2j"/>
                 <constraint firstItem="mtZ-7U-mhu" firstAttribute="top" secondItem="dZa-2N-LYN" secondAttribute="bottom" constant="6" id="ou0-yi-BfR"/>
                 <constraint firstItem="LeB-cY-ij5" firstAttribute="top" secondItem="ndq-Ql-b7q" secondAttribute="bottom" constant="6" id="rFr-qD-9fj"/>
                 <constraint firstItem="scd-Oc-IXt" firstAttribute="leading" secondItem="ndq-Ql-b7q" secondAttribute="leading" id="rZi-kJ-QYs"/>
-                <constraint firstItem="oHo-5Q-6i8" firstAttribute="top" secondItem="T2R-wD-nFc" secondAttribute="bottom" constant="6" id="s6Z-Vc-pTG"/>
+                <constraint firstItem="YaW-NR-VWT" firstAttribute="leading" secondItem="T2R-wD-nFc" secondAttribute="leading" id="ryu-y9-MWa"/>
                 <constraint firstItem="h6T-Yt-wLr" firstAttribute="top" secondItem="65a-VD-0nS" secondAttribute="bottom" constant="6" id="vcJ-Km-pIv"/>
                 <constraint firstItem="FCV-Iv-4je" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="w7y-0l-dg7"/>
                 <constraint firstItem="65a-VD-0nS" firstAttribute="top" secondItem="05c-aJ-JWO" secondAttribute="bottom" constant="41" id="wA0-3F-ups"/>
                 <constraint firstItem="dsw-Cp-EsL" firstAttribute="leading" secondItem="mtZ-7U-mhu" secondAttribute="leading" id="xJn-a5-OY2"/>
                 <constraint firstItem="9no-vx-RS4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="58" id="yaG-X6-APG"/>
                 <constraint firstItem="dsw-Cp-EsL" firstAttribute="top" secondItem="GCJ-qN-XC0" secondAttribute="bottom" constant="6" id="zLs-wF-seL"/>
-                <constraint firstItem="9no-vx-RS4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="zO1-gs-ixy"/>
+                <constraint firstItem="9no-vx-RS4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="70" id="zO1-gs-ixy"/>
             </constraints>
-            <point key="canvasLocation" x="91" y="104"/>
+            <point key="canvasLocation" x="89.855072463768124" y="103.79464285714285"/>
         </view>
     </objects>
     <resources>

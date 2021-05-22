@@ -11,7 +11,8 @@ class BackViewController: UIViewController {
     //MARK: - Properties
     private var enrollList = EnrollReqest(id: "1", email: "email", isOB: true, part: "28기 YB iOS", age: "25", insta: "@insta_1", school: "seouluniversity", name: "hyungyu", station: "공릉역", keyword: "#안녕하세요", detail: Detail(favBaskin: "민초", favFood: "피자", nickname: "철수", msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."), essential: Essential(mbti: "esfj", isMincho: true, isBumuk: false, isSoju: false))
     
-
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    
     //MARK: - @IBOutlet Properties
     @IBOutlet weak var touchBackBtn: UIButton!
     @IBOutlet weak var nameLabel: UILabel!
@@ -58,43 +59,86 @@ extension BackViewController {
 //        enrollList =
 //            EnrollReqest(id: "1", email: "email", isOB: true, part: "28기 YB iOS", age: "25", insta: "@insta_1", school: "seouluniversity", name: "hyungyu", station: "공릉역", keyword: "#안녕하세요", detail: Detail(favBaskin: "민초", favFood: "피자", nickname: "철수", msg: "감사합니다"), essential: Essential(mbti: "esfj", isMincho: true, isBumuk: false, isSoju: false))
         
-        nameLabel.text = enrollList.name
+//        nameLabel.text = enrollList.name
+//        nameLabel.font = UIFont.boldSystemFont(ofSize: 24)
+//
+//        keywordLabel.text = enrollList.keyword
+//        keywordLabel.font = UIFont.systemFont(ofSize: 16)
+//
+//        mbtiLabel.text = "👀 MBTI"
+//        mbtiAnswerLabel.text = enrollList.essential.mbti
+//
+//        isBumukLabel.text = "👇 부먹/찍먹"
+//        if enrollList.essential.isBumuk == true {
+//            isBumukAnswerLabel.text = "부먹!"
+//        } else {
+//            isBumukAnswerLabel.text = "찍먹!"
+//        }
+//
+//        favBeskinLabel.text = "🍨 베라 최애 메뉴"
+//        favBeskinAnswerLabel.text = enrollList.detail.favBaskin
+//
+//        favFoodLabel.text = "🍽 최애 음식"
+//        favFoodAnswerLabel.text = enrollList.detail.favFood
+//
+//        nicknameLabel.text = "👋 별명"
+//        nicknameAnswerLabel.text = enrollList.detail.nickname
+//
+//        msgLabel.text = "😀 하고싶은말"
+//        msgAnswerLabel.text = enrollList.detail.msg
+//
+//        isMinchoLabel.text = "🍵 민트초코"
+//        if enrollList.essential.isMincho == true {
+//            isMinchoAnswerLabel.text = "민초!"
+//        } else {
+//            isMinchoAnswerLabel.text = "반민초!"
+//        }
+//
+//        isSojuLabel.text = "🥃 소주/맥주"
+//        if enrollList.essential.isSoju == true {
+//            isSojuAnswerLabel.text = "소주"
+//        } else {
+//            isSojuAnswerLabel.text = "맥주"
+//        }
+        
+ 
+        nameLabel.text = appDelegate.frontList!.data.name
         nameLabel.font = UIFont.boldSystemFont(ofSize: 24)
         
-        keywordLabel.text = enrollList.keyword
+        keywordLabel.text = appDelegate.frontList!.data.keyword
         keywordLabel.font = UIFont.systemFont(ofSize: 16)
         
         mbtiLabel.text = "👀 MBTI"
-        mbtiAnswerLabel.text = enrollList.essential.mbti
+        mbtiAnswerLabel.text = appDelegate.frontList!.data.essential.mbti
         
         isBumukLabel.text = "👇 부먹/찍먹"
-        if enrollList.essential.isBumuk == true {
+        if appDelegate.frontList!.data.essential.isBumuk == true {
             isBumukAnswerLabel.text = "부먹!"
         } else {
             isBumukAnswerLabel.text = "찍먹!"
         }
         
-        favBeskinAnswerLabel.text = "🍨 베라 최애 메뉴"
-        favBeskinAnswerLabel.text = enrollList.detail.favBaskin
+        favBeskinLabel.text = "🍨 베라 최애 메뉴"
+        favBeskinAnswerLabel.text = appDelegate.frontList!.data.detail.favBaskin
         
         favFoodLabel.text = "🍽 최애 음식"
-        favFoodAnswerLabel.text = enrollList.detail.favFood
+        favFoodAnswerLabel.text = appDelegate.frontList!.data.detail.favFood
         
-        nicknameLabel.text = "🍽 별명"
-        nicknameAnswerLabel.text = enrollList.detail.nickname
+        nicknameLabel.text = "👋 별명"
+        nicknameAnswerLabel.text = appDelegate.frontList!.data.detail.nickname
         
-        msgLabel.text = "🍽 하고싶은말"
-        msgAnswerLabel.text = enrollList.detail.msg
+        msgLabel.text = "😀 하고싶은말"
+        msgAnswerLabel.text = appDelegate.frontList!.data.detail.msg
         
         isMinchoLabel.text = "🍵 민트초코"
-        if enrollList.essential.isMincho == true {
+        if appDelegate.frontList!.data.essential.isMincho == true {
             isMinchoAnswerLabel.text = "민초!"
         } else {
             isMinchoAnswerLabel.text = "반민초!"
         }
         
         isSojuLabel.text = "🥃 소주/맥주"
-        if enrollList.essential.isSoju == true {
+        if appDelegate.frontList!.data.essential.isSoju == true {
             isSojuAnswerLabel.text = "소주"
         } else {
             isSojuAnswerLabel.text = "맥주"

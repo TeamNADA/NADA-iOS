@@ -22,10 +22,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = SplashViewController()
         window?.makeKeyAndVisible()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-            let frontNavigationController = UINavigationController(rootViewController: EnrollViewController())
-            self.window?.rootViewController = frontNavigationController
+        if UserDefaults.standard.string(forKey: "id2") != nil{
+            print(UserDefaults.standard.string(forKey: "id2"))
+            let usedNavigationController = UINavigationController(rootViewController: FrontViewController())
+            self.window?.rootViewController = usedNavigationController
             self.window?.makeKeyAndVisible()
+        }
+        else{
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                let frontNavigationController = UINavigationController(rootViewController: EnrollViewController())
+                self.window?.rootViewController = frontNavigationController
+                self.window?.makeKeyAndVisible()
+            }
         }
     }
 

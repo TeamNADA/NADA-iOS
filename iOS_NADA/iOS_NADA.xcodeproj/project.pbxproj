@@ -14,9 +14,6 @@
 		77BB54B326594152005F0EA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54B226594152005F0EA6 /* SceneDelegate.swift */; };
 		77BB54BA26594156005F0EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BB54B926594156005F0EA6 /* Assets.xcassets */; };
 		77BB54BD26594156005F0EA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BB54BB26594156005F0EA6 /* LaunchScreen.storyboard */; };
-		77BB54DE2659479B005F0EA6 /* temp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54DD2659479B005F0EA6 /* temp1.swift */; };
-		77BB54E1265947A2005F0EA6 /* temp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54E0265947A2005F0EA6 /* temp2.swift */; };
-		77BB54E7265947B4005F0EA6 /* temp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54E6265947B4005F0EA6 /* temp4.swift */; };
 		77BB54EA265947C1005F0EA6 /* temp5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB54E9265947C1005F0EA6 /* temp5.swift */; };
 		F83EE92726599FA100AA5E32 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F83EE92526599FA100AA5E32 /* AlertViewController.xib */; };
 		F83EE92826599FA100AA5E32 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EE92626599FA100AA5E32 /* AlertViewController.swift */; };
@@ -25,7 +22,16 @@
 		F850897F265996570053EBA4 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F850897E265996570053EBA4 /* UIColor.swift */; };
 		F8508983265996CE0053EBA4 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8508981265996CE0053EBA4 /* SplashViewController.swift */; };
 		F8508984265996CE0053EBA4 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8508982265996CE0053EBA4 /* SplashViewController.xib */; };
-		F88F48B0265958AD007C423A /* EnrollRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F48AF265958AD007C423A /* EnrollRequest.swift */; };
+		F8881ADD2659B782003045D0 /* FrontRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8881ADB2659B782003045D0 /* FrontRequest.swift */; };
+		F8881AE02659B7B7003045D0 /* EnrollRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8881ADF2659B7B7003045D0 /* EnrollRequest.swift */; };
+		F8881AE22659B7CD003045D0 /* EnrollResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8881AE12659B7CD003045D0 /* EnrollResponse.swift */; };
+		F8881AE42659B7E0003045D0 /* FrontResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8881AE32659B7E0003045D0 /* FrontResponse.swift */; };
+		F8881AE62659B7F8003045D0 /* EnrollDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8881AE52659B7F8003045D0 /* EnrollDataManager.swift */; };
+		F8881AE82659B808003045D0 /* FrontDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8881AE72659B808003045D0 /* FrontDataManager.swift */; };
+		F8881AEC2659B84F003045D0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8881AEB2659B84F003045D0 /* Constant.swift */; };
+		F8881AEE2659BF4A003045D0 /* MatchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8881AED2659BF4A003045D0 /* MatchResponse.swift */; };
+		F8881AF02659BFDC003045D0 /* MatchDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8881AEF2659BFDC003045D0 /* MatchDataManager.swift */; };
+		F8881AF22659C0EE003045D0 /* MatchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8881AF12659C0EE003045D0 /* MatchRequest.swift */; };
 		F88F48C026595AAC007C423A /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F48BE26595AAC007C423A /* FrontViewController.swift */; };
 		F88F48C126595AAC007C423A /* FrontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F88F48BF26595AAC007C423A /* FrontViewController.xib */; };
 /* End PBXBuildFile section */
@@ -41,9 +47,6 @@
 		77BB54B926594156005F0EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77BB54BC26594156005F0EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77BB54BE26594156005F0EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77BB54DD2659479B005F0EA6 /* temp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp1.swift; sourceTree = "<group>"; };
-		77BB54E0265947A2005F0EA6 /* temp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp2.swift; sourceTree = "<group>"; };
-		77BB54E6265947B4005F0EA6 /* temp4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp4.swift; sourceTree = "<group>"; };
 		77BB54E9265947C1005F0EA6 /* temp5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp5.swift; sourceTree = "<group>"; };
 		EF4C154AD4982D85C6EB4720 /* Pods_iOS_NADA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_NADA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83EE92526599FA100AA5E32 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
@@ -53,7 +56,16 @@
 		F850897E265996570053EBA4 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		F8508981265996CE0053EBA4 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		F8508982265996CE0053EBA4 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
-		F88F48AF265958AD007C423A /* EnrollRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollRequest.swift; sourceTree = "<group>"; };
+		F8881ADB2659B782003045D0 /* FrontRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontRequest.swift; sourceTree = "<group>"; };
+		F8881ADF2659B7B7003045D0 /* EnrollRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnrollRequest.swift; sourceTree = "<group>"; };
+		F8881AE12659B7CD003045D0 /* EnrollResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnrollResponse.swift; sourceTree = "<group>"; };
+		F8881AE32659B7E0003045D0 /* FrontResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontResponse.swift; sourceTree = "<group>"; };
+		F8881AE52659B7F8003045D0 /* EnrollDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnrollDataManager.swift; sourceTree = "<group>"; };
+		F8881AE72659B808003045D0 /* FrontDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontDataManager.swift; sourceTree = "<group>"; };
+		F8881AEB2659B84F003045D0 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F8881AED2659BF4A003045D0 /* MatchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResponse.swift; sourceTree = "<group>"; };
+		F8881AEF2659BFDC003045D0 /* MatchDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDataManager.swift; sourceTree = "<group>"; };
+		F8881AF12659C0EE003045D0 /* MatchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchRequest.swift; sourceTree = "<group>"; };
 		F88F48BE26595AAC007C423A /* FrontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
 		F88F48BF26595AAC007C423A /* FrontViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FrontViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,10 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				F88F48AE265958A4007C423A /* Model */,
-				77BB54D72659433B005F0EA6 /* Protocol */,
 				77BB54D626594319005F0EA6 /* Network */,
 				77BB54D526594303005F0EA6 /* Extension */,
-				77BB54D4265942F0005F0EA6 /* Models */,
 				77BB54D3265942C2005F0EA6 /* Cells */,
 				77BB54CC2659421C005F0EA6 /* VCs */,
 				77BB54B026594152005F0EA6 /* AppDelegate.swift */,
@@ -153,14 +163,6 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		77BB54D4265942F0005F0EA6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				77BB54E6265947B4005F0EA6 /* temp4.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		77BB54D526594303005F0EA6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,17 +174,12 @@
 		77BB54D626594319005F0EA6 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				77BB54E0265947A2005F0EA6 /* temp2.swift */,
+				F8881AEB2659B84F003045D0 /* Constant.swift */,
+				F8881AE72659B808003045D0 /* FrontDataManager.swift */,
+				F8881AE52659B7F8003045D0 /* EnrollDataManager.swift */,
+				F8881AEF2659BFDC003045D0 /* MatchDataManager.swift */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		77BB54D72659433B005F0EA6 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				77BB54DD2659479B005F0EA6 /* temp1.swift */,
-			);
-			path = Protocol;
 			sourceTree = "<group>";
 		};
 		8BF758FFB7970708CB5ECC41 /* Pods */ = {
@@ -223,7 +220,12 @@
 		F88F48AE265958A4007C423A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F88F48AF265958AD007C423A /* EnrollRequest.swift */,
+				F8881ADF2659B7B7003045D0 /* EnrollRequest.swift */,
+				F8881AE32659B7E0003045D0 /* FrontResponse.swift */,
+				F8881AE12659B7CD003045D0 /* EnrollResponse.swift */,
+				F8881ADB2659B782003045D0 /* FrontRequest.swift */,
+				F8881AED2659BF4A003045D0 /* MatchResponse.swift */,
+				F8881AF12659C0EE003045D0 /* MatchRequest.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -358,18 +360,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				399AB5962659597C008F89DA /* EnrollViewController.swift in Sources */,
+				F8881AE62659B7F8003045D0 /* EnrollDataManager.swift in Sources */,
 				F850897F265996570053EBA4 /* UIColor.swift in Sources */,
+				F8881AEC2659B84F003045D0 /* Constant.swift in Sources */,
 				F88F48C026595AAC007C423A /* FrontViewController.swift in Sources */,
-				77BB54E7265947B4005F0EA6 /* temp4.swift in Sources */,
+				F8881AE82659B808003045D0 /* FrontDataManager.swift in Sources */,
+				F8881AE42659B7E0003045D0 /* FrontResponse.swift in Sources */,
 				77BB54EA265947C1005F0EA6 /* temp5.swift in Sources */,
 				F850897C265962C50053EBA4 /* BackViewController.swift in Sources */,
+				F8881AF02659BFDC003045D0 /* MatchDataManager.swift in Sources */,
 				F8508983265996CE0053EBA4 /* SplashViewController.swift in Sources */,
-				77BB54E1265947A2005F0EA6 /* temp2.swift in Sources */,
+				F8881AE22659B7CD003045D0 /* EnrollResponse.swift in Sources */,
 				77BB54B126594152005F0EA6 /* AppDelegate.swift in Sources */,
-				77BB54DE2659479B005F0EA6 /* temp1.swift in Sources */,
-				F88F48B0265958AD007C423A /* EnrollRequest.swift in Sources */,
+				F8881AE02659B7B7003045D0 /* EnrollRequest.swift in Sources */,
+				F8881ADD2659B782003045D0 /* FrontRequest.swift in Sources */,
 				F83EE92826599FA100AA5E32 /* AlertViewController.swift in Sources */,
+				F8881AF22659C0EE003045D0 /* MatchRequest.swift in Sources */,
 				77BB54B326594152005F0EA6 /* SceneDelegate.swift in Sources */,
+				F8881AEE2659BF4A003045D0 /* MatchResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

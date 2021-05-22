@@ -8,7 +8,10 @@
 import UIKit
 
 class EnrollViewController: UIViewController {
-    
+    private var obyb: Bool = true
+    private var mincho: Bool = true
+    private var tangsuyuk: Bool = true
+    private var drink: Bool = true
     
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var idTextField: UITextField!
@@ -31,14 +34,61 @@ class EnrollViewController: UIViewController {
     
     
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.isHidden = true
-
+        obybSegmentedControl.addTarget(self, action: #selector(setObyb(_:)), for: .allEvents)
+        minchoSegmentedControl.addTarget(self, action: #selector(setObyb(_:)), for: .allEvents)
+        tangsuyukSegmentedControl.addTarget(self, action: #selector(setObyb(_:)), for: .allEvents)
+        drinkSegmentedControl.addTarget(self, action: #selector(setObyb(_:)), for: .allEvents)
     }
-
-
+    
+    @objc func setObyb(_ sender: UISegmentedControl){
+        print(sender.selectedSegmentIndex)
+        if sender.selectedSegmentIndex == 0 {
+            obyb = true
+        } else {
+            obyb = false
+        }
+    }
+    @objc func setTanksuyuk(_ sender: UISegmentedControl){
+        print(sender.selectedSegmentIndex)
+        if sender.selectedSegmentIndex == 0 {
+            mincho = true
+        } else {
+            mincho = false
+        }
+    }
+    @objc func setMincho(_ sender: UISegmentedControl){
+        print(sender.selectedSegmentIndex)
+        if sender.selectedSegmentIndex == 0 {
+            tangsuyuk = true
+        } else {
+            tangsuyuk = false
+        }
+    }
+    @objc func setDrink(_ sender: UISegmentedControl){
+        print(sender.selectedSegmentIndex)
+        if sender.selectedSegmentIndex == 0 {
+            drink = true
+        } else {
+            drink = false
+        }
+        
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
+    
+    
     @IBAction func completeButton(_ sender: Any) {
+        let input = EnrollReqest(id: idTextField.text!, email: emailTextField.text!, isOB: obyb, part: patrTextField.text!, age: ageTextField.text!, insta: instagramTextField.text!, school: schoolTextField.text!, name: nameTextField.text!, station: subwayTextField.text!, keyword: keywordTextField.text!, detail: Detail(favBaskin: "민트초코", favFood: "민초치킨", nickname: "민초덕후", msg: "솝트사랑해"), essential: Essential(mbti: "ESFJ", isMincho: mincho, isBumuk: tangsuyuk, isSoju: drink))
+        
+        
+        UserDefaults.standard.set(idTextField.text!, forKey: "id2")
+        
+        
+        EnrollDataManager.request(input, viewController: self)
         let nextVC = FrontViewController(nibName: "FrontViewController", bundle: nil)
         self.navigationController?.pushViewController(nextVC, animated: true)
     }

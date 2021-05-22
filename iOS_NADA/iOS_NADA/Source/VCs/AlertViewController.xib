@@ -16,6 +16,7 @@
                 <outlet property="loadBtn" destination="x4D-ik-1l7" id="L5v-15-tST"/>
                 <outlet property="matchLabel" destination="64Q-a5-rbz" id="aJZ-P1-JXF"/>
                 <outlet property="percentLabel" destination="MPg-cm-TQx" id="iQK-ov-4id"/>
+                <outlet property="subtitleLabel" destination="9jE-xk-3Al" id="J0L-KL-NkU"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

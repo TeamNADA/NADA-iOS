@@ -100,7 +100,7 @@
                                         <constraint firstAttribute="height" constant="42" id="tnN-6P-xmI"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ld7-ON-bFE">
                                     <rect key="frame" x="24" y="415" width="328" height="20"/>
@@ -123,7 +123,7 @@
                                         <constraint firstAttribute="height" constant="42" id="cqT-D4-MuD"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="us9-57-JS7">
                                     <rect key="frame" x="24" y="495" width="328" height="20"/>
@@ -171,7 +171,7 @@
                                         <constraint firstAttribute="height" constant="42" id="vgg-fg-V4d"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHK-I4-lh9">
                                     <rect key="frame" x="24" y="652" width="328" height="20"/>
@@ -194,7 +194,7 @@
                                         <constraint firstAttribute="height" constant="42" id="FY0-nx-VMC"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                 </textField>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="이름" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gH1-xd-QEn">
                                     <rect key="frame" x="24" y="281" width="328" height="42"/>
@@ -202,7 +202,7 @@
                                         <constraint firstAttribute="height" constant="42" id="rWh-Ln-M62"/>
                                     </constraints>
                                     <attributedString key="attributedText"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVl-CO-ZSM">
                                     <rect key="frame" x="24" y="732" width="328" height="20"/>
@@ -225,7 +225,7 @@
                                         <constraint firstAttribute="height" constant="42" id="tkW-s1-nqT"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMi-qy-4CP">
                                     <rect key="frame" x="24" y="812" width="328" height="20"/>
@@ -248,7 +248,7 @@
                                         <constraint firstAttribute="height" constant="42" id="PKS-jN-dMI"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTM-dt-BJW">
                                     <rect key="frame" x="24" y="892" width="328" height="20"/>
@@ -271,7 +271,7 @@
                                         <constraint firstAttribute="height" constant="42" id="c6t-IB-o0g"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewM-fc-8zl">
                                     <rect key="frame" x="24" y="972" width="328" height="20"/>
@@ -294,7 +294,7 @@
                                         <constraint firstAttribute="height" constant="42" id="kWD-zK-LH6"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="560-aQ-XAz">
                                     <rect key="frame" x="24" y="1052" width="328" height="20"/>
@@ -317,7 +317,7 @@
                                         <constraint firstAttribute="height" constant="42" id="nhh-ir-KqL"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hB3-lK-OH0">
                                     <rect key="frame" x="24" y="1132" width="328" height="20"/>
@@ -415,7 +415,7 @@
                                         <constraint firstAttribute="height" constant="42" id="VQ0-XQ-zse"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHm-oj-EEv">
                                     <rect key="frame" x="24" y="1454" width="328" height="20"/>
@@ -438,7 +438,7 @@
                                         <constraint firstAttribute="height" constant="42" id="fDL-r8-xyM"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4y-C8-dRf">
                                     <rect key="frame" x="24" y="1534" width="328" height="20"/>
@@ -461,7 +461,7 @@
                                         <constraint firstAttribute="height" constant="42" id="6Uo-Go-wIv"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6U-RU-lru">
                                     <rect key="frame" x="24" y="1614" width="328" height="20"/>
@@ -484,7 +484,7 @@
                                         <constraint firstAttribute="height" constant="42" id="ij1-3y-ESG"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="namePhonePad"/>
                                 </textField>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r0l-oj-Erf">
                                     <rect key="frame" x="0.0" y="1722" width="375" height="42"/>
