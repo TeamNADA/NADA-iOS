@@ -33,7 +33,7 @@ class FrontViewController: UIViewController {
     override func viewDidLoad() {
             super.viewDidLoad()
             
-           let id =  UserDefaults.standard.string(forKey: "id2")
+           let id =  UserDefaults.standard.string(forKey: "id7")
 
             FrontDataManager.response(FrontRequest(id: id), viewController: self)
             self.navigationController?.navigationBar.isHidden = true
@@ -55,37 +55,14 @@ extension FrontViewController {
         setUI()
     }
     private func setUI() {
+//        self.navigationController?.navigationBar.isHidden = true
+        
         shadowView.layer.shadowOpacity = 0.1
         shadowView.layer.shadowRadius = 5
         shadowView.layer.shadowOffset = CGSize(width: 0, height: 4)
         shadowView.layer.shadowColor =  UIColor.black.cgColor
         shadowView.layer.masksToBounds = false
         
-//        gradeQlabel.text = "활동 기수"
-//        gradeQlabel.font = UIFont.systemFont(ofSize: 16)
-//        instaQlabel.text = "인스타그램 아이디"
-//        instaQlabel.font = UIFont.systemFont(ofSize: 16)
-//        universityQlabel.text = "학교"
-//        universityQlabel.font = UIFont.systemFont(ofSize: 16)
-//        emailQlabel.text = "이메일"
-//        emailQlabel.font = UIFont.systemFont(ofSize: 16)
-//        subwayQlabel.text = "지하철역"
-//        subwayQlabel.font = UIFont.systemFont(ofSize: 16)
-//
-//        nameLabel.text = enrollList.name
-//        nameLabel.font = UIFont.boldSystemFont(ofSize: 24)
-//        keywordLabel.text = enrollList.keyword
-//        keywordLabel.font = UIFont.systemFont(ofSize: 16)
-//        gradeLabel.text = enrollList.part
-//        gradeLabel.font = UIFont.systemFont(ofSize: 20)
-//        instagramLabel.text = enrollList.insta
-//        instagramLabel.font = UIFont.systemFont(ofSize: 20)
-//        universityLabel.text = enrollList.school
-//        universityLabel.font = UIFont.systemFont(ofSize: 20)
-//        emailLabel.text = enrollList.email
-//        emailLabel.font = UIFont.systemFont(ofSize: 20)
-//        subwayLabel.text = enrollList.station
-//        subwayLabel.font = UIFont.systemFont(ofSize: 20)
         
         gradeQlabel.text = "활동 기수"
         gradeQlabel.font = UIFont.systemFont(ofSize: 16)
@@ -98,6 +75,7 @@ extension FrontViewController {
         subwayQlabel.text = "지하철역"
         subwayQlabel.font = UIFont.systemFont(ofSize: 16)
         
+        print(appDelegate.frontList!)
         nameLabel.text = appDelegate.frontList!.data.name
         nameLabel.font = UIFont.boldSystemFont(ofSize: 24)
         keywordLabel.text = appDelegate.frontList!.data.keyword

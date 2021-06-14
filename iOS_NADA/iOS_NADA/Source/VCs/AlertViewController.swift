@@ -9,7 +9,7 @@ import UIKit
 
 class AlertViewController: UIViewController {
 
-    private var load :Bool = false
+    private var load :Bool = true
     
     @IBOutlet weak var percentLabel: UILabel!
     @IBOutlet weak var subtitleLabel: UILabel!
@@ -33,13 +33,13 @@ class AlertViewController: UIViewController {
         matchLabel.isHidden = true
         goMatchBtn.backgroundColor = .nadaBrandcolor
         
-        MatchDataManager.match(MatchRequest(myID: "nada", friendID: "yaewon"), viewController: self)
+        MatchDataManager.match(MatchRequest(myID: UserDefaults.standard.string(forKey: "id7"), friendID: "yaewon"), viewController: self)
         // Do any additional setup after loading the view.
     }
     
     @IBAction func goMatch(_ sender: Any) {
 //        MatchDataManager.match(MatchRequest(myID: "jjieun", friendID: "yaewon"), viewController: self)
-        if manage == true {
+        if load == true {
             let id = inputID.text
             //통신 참이면
             percentLabel.isHidden = false

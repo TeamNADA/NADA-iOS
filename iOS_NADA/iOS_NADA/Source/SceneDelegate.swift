@@ -22,8 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = SplashViewController()
         window?.makeKeyAndVisible()
         
-        if UserDefaults.standard.string(forKey: "id2") != nil{
-            print(UserDefaults.standard.string(forKey: "id2"))
+        if UserDefaults.standard.string(forKey: "id7") != nil{
+            
             let usedNavigationController = UINavigationController(rootViewController: FrontViewController())
             self.window?.rootViewController = usedNavigationController
             self.window?.makeKeyAndVisible()
