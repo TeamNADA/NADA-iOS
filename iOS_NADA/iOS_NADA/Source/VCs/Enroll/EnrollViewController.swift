@@ -38,6 +38,8 @@ class EnrollViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true
+        
         obybSegmentedControl.addTarget(self, action: #selector(setObyb(_:)), for: .allEvents)
         minchoSegmentedControl.addTarget(self, action: #selector(setObyb(_:)), for: .allEvents)
         tangsuyukSegmentedControl.addTarget(self, action: #selector(setObyb(_:)), for: .allEvents)
@@ -82,10 +84,10 @@ class EnrollViewController: UIViewController {
     
     
     @IBAction func completeButton(_ sender: Any) {
-        let input = EnrollReqest(id: idTextField.text!, email: emailTextField.text!, isOB: obyb, part: patrTextField.text!, age: ageTextField.text!, insta: instagramTextField.text!, school: schoolTextField.text!, name: nameTextField.text!, station: subwayTextField.text!, keyword: keywordTextField.text!, detail: Detail(favBaskin: "민트초코", favFood: "민초치킨", nickname: "민초덕후", msg: "솝트사랑해"), essential: Essential(mbti: "ESFJ", isMincho: mincho, isBumuk: tangsuyuk, isSoju: drink))
+        let input = EnrollReqest(id: idTextField.text!, email: emailTextField.text!, isOB: obyb, part: patrTextField.text!, age: ageTextField.text!, insta: instagramTextField.text!, school: schoolTextField.text!, name: nameTextField.text!, station: subwayTextField.text!, keyword: keywordTextField.text!, detail: Detail(favBaskin: beraTextField.text!, favFood: likefoodTextField.text!, nickname: nicknameTextField.text!, msg: messageTextField.text!), essential: Essential(mbti: mbtiTextField.text!, isMincho: mincho, isBumuk: tangsuyuk, isSoju: drink))
         
         
-        UserDefaults.standard.set(idTextField.text!, forKey: "id2")
+        UserDefaults.standard.set(idTextField.text!, forKey: "id7")
         
         
         EnrollDataManager.request(input, viewController: self)
